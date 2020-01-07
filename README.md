@@ -1,5 +1,5 @@
 # mdc-datatable-demo
-Example of mdc datatable with laravel mix and vue2
+Example of mdc datatable with **laravel mix** and **vue2**
 
 
 1. From the root folder of the project install node dependencies of the `package.json` with

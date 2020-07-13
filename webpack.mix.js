@@ -25,4 +25,5 @@ const mix = require('laravel-mix');
                 }]
             }]
         }
-    }).js('app/source/demo.js', 'app/build').sourceMaps(false, 'source-map');
+    }).js('app/source/demo.js', 'app/build').sourceMaps(false, 'source-map')
+      .copy('app/source/index.html', 'app/build');
